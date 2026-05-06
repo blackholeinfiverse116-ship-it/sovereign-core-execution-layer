@@ -1,0 +1,36 @@
+{
+  "approved_case": {
+    "execution_id": "exec_001",
+    "ksml_input": {
+      "query": "normal case"
+    },
+    "dgic_output": {
+      "analysis": "risk detected"
+    },
+    "pde_output": {
+      "recommendation": "monitor closely"
+    },
+    "rajya_verdict": {
+      "status": "APPROVED"
+    },
+    "sarathi_token": "secure_token_123",
+    "enforcement_result": {
+      "result": "execution successful"
+    }
+  },
+  "reject_case": {
+    "execution_id": "exec_002",
+    "ksml_input": {
+      "query": "force reject"
+    },
+    "dgic_output": {
+      "analysis": "risk detected"
+    },
+    "pde_output": {
+      "recommendation": "monitor closely"
+    },
+    "rajya_verdict": {
+      "status": "REJECT"
+    }
+  }
+}
